@@ -1,11 +1,13 @@
-import Signin from "./components/Login/Signin";
+import Background from "./Background/Background";
+import Navbar from "./components/navbar/Navbar";
 import React from "react";
-import "../src/Index.css"
+import "../src/Index.css";
 
 const App = () => {
     return (
         <>
-            <Signin />
+            <Background />
+            <Navbar />
         </>
     );
 };
