@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Background from "./Background/Background";
+import Background from "../src/components/Background/Background.tsx"
 // import "../src/Index.css";
 const App = () => {
     let heroData = [
